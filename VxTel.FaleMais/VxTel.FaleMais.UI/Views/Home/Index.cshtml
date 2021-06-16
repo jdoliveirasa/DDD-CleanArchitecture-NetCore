@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Fale Mais";
+}
+<h2>
+    @ViewData["Title"]
+</h2>
+<form asp-action="Search">
+    <div class="form-horizontal">
+        <hr />
+        <vc:summary />
+        <div class="form-group">
+            <label>Selecione Código de Área de Origem</label>
+            <select name="OriginId" class="form-control" asp-items="@ViewBag.AreaCodeOrigin"></select>
+        </div>
+        <div class="form-group">
+            <label>Selecione Código de Área de Destino</label>
+            <select name="DestinyId" class="form-control" asp-items="@ViewBag.AreaCodeDestiny"></select>
+        </div>
+        <div class="form-group">
+            <label>Informe o Tempo da ligação em Minutos</label>
+            <input name="TimeInMinutes" type="number" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label>Selecione o Plano <b>FaleMais</b></label>
+            <select name="PlanId" class="form-control" asp-items="@ViewBag.Plan"></select>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Buscar" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qt9wFP2L8p1wdzRt/3oOn6NXMxnU54PL19afxuRHt/KCRncKWixjFuDxqyZ3i3oPkieYJTcB4LxXGgwrcnN8Ng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Janus\\Downloads\\Pessoal\\ShowmethecodeSource\\VxTel.FaleMais\\VxTel.FaleMais.Application\\VxTel.FaleMais.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Janus\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Janus\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Janus\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

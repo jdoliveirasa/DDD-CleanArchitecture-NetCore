@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VxTel.FaleMais.Infra.Data/1.0.0": {
+        "dependencies": {
+          "VxTel.FaleMais.Domain": "1.0.0"
+        },
+        "runtime": {
+          "VxTel.FaleMais.Infra.Data.dll": {}
+        }
+      },
+      "VxTel.FaleMais.Domain/1.0.0": {
+        "runtime": {
+          "VxTel.FaleMais.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VxTel.FaleMais.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VxTel.FaleMais.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

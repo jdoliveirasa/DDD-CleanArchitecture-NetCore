@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Janus\\Downloads\\Pessoal\\ShowmethecodeSource\\VxTel.FaleMais\\VxTel.FaleMais.UnitTestDefault\\VxTel.FaleMais.UnitTestDefault.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Janus\\Downloads\\Pessoal\\ShowmethecodeSource\\VxTel.FaleMais\\VxTel.FaleMais.Domain\\VxTel.FaleMais.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Janus\\Downloads\\Pessoal\\ShowmethecodeSource\\VxTel.FaleMais\\VxTel.FaleMais.Domain\\VxTel.FaleMais.Domain.csproj",
+        "projectName": "VxTel.FaleMais.Domain",
+        "projectPath": "C:\\Users\\Janus\\Downloads\\Pessoal\\ShowmethecodeSource\\VxTel.FaleMais\\VxTel.FaleMais.Domain\\VxTel.FaleMais.Domain.csproj",
+        "packagesPath": "C:\\Users\\Janus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Janus\\Downloads\\Pessoal\\ShowmethecodeSource\\VxTel.FaleMais\\VxTel.FaleMais.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Janus\\Downloads\\Pessoal\\ShowmethecodeSource\\VxTel.FaleMais\\VxTel.FaleMais.UnitTestDefault\\VxTel.FaleMais.UnitTestDefault.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Janus\\Downloads\\Pessoal\\ShowmethecodeSource\\VxTel.FaleMais\\VxTel.FaleMais.UnitTestDefault\\VxTel.FaleMais.UnitTestDefault.csproj",
+        "projectName": "VxTel.FaleMais.UnitTestDefault",
+        "projectPath": "C:\\Users\\Janus\\Downloads\\Pessoal\\ShowmethecodeSource\\VxTel.FaleMais\\VxTel.FaleMais.UnitTestDefault\\VxTel.FaleMais.UnitTestDefault.csproj",
+        "packagesPath": "C:\\Users\\Janus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Janus\\Downloads\\Pessoal\\ShowmethecodeSource\\VxTel.FaleMais\\VxTel.FaleMais.UnitTestDefault\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Janus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Janus\\Downloads\\Pessoal\\ShowmethecodeSource\\VxTel.FaleMais\\VxTel.FaleMais.Domain\\VxTel.FaleMais.Domain.csproj": {
+                "projectPath": "C:\\Users\\Janus\\Downloads\\Pessoal\\ShowmethecodeSource\\VxTel.FaleMais\\VxTel.FaleMais.Domain\\VxTel.FaleMais.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

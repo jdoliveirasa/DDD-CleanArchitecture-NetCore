@@ -1,0 +1,61 @@
+﻿@model IEnumerable<VxTel.FaleMais.Application.ViewModels.ExceedingMinuteViewModel>
+@{
+    ViewData["Title"] = "Fale Mais";
+}
+<h2>
+    <b>@ViewData["Title"]</b> - Valor das Tarifas
+</h2>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <div>
+            <div class="pull-left">
+                <a asp-action="Index" class="btn btn-info">Calcular Novamente</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<div class="panel panel-default">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Origem</th>
+                <th>Destino</th>
+                <th>Tempo</th>
+                <th>Plano FaleMais</th>
+                <th>Com FaleMais</th>
+                <th>Sem FaleMais</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Origin.Code)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Destiny.Code)</td>
+                    <td>@Html.DisplayFor(modelItem => item.TimeInMinutes)</td>
+                    <td>@Html.DisplayFor(modelItem => item.PlanDescription)</td>
+                    @if (item.AmountPayableWithPlan != -1)
+                    {
+                        <td>@Html.DisplayFor(modelItem => item.AmountPayableWithPlan)</td>
+
+                    }
+                    else
+                    {
+                        <td>-</td>
+                    }
+
+                    @if (item.AmountPayable != -1)
+                    {
+                        <td>@Html.DisplayFor(modelItem => item.AmountPayable)</td>
+                    }
+                    else
+                    {
+                        <td>-</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

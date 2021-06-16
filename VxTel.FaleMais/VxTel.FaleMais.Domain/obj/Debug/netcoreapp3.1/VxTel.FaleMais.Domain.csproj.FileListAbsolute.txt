@@ -1,0 +1,9 @@
+C:\Users\Janus\source\repos\VxTel.FaleMais\VxTel.FaleMais.Domain\bin\Debug\netcoreapp3.1\VxTel.FaleMais.Domain.deps.json
+C:\Users\Janus\source\repos\VxTel.FaleMais\VxTel.FaleMais.Domain\bin\Debug\netcoreapp3.1\VxTel.FaleMais.Domain.dll
+C:\Users\Janus\source\repos\VxTel.FaleMais\VxTel.FaleMais.Domain\bin\Debug\netcoreapp3.1\VxTel.FaleMais.Domain.pdb
+C:\Users\Janus\source\repos\VxTel.FaleMais\VxTel.FaleMais.Domain\obj\Debug\netcoreapp3.1\VxTel.FaleMais.Domain.csprojAssemblyReference.cache
+C:\Users\Janus\source\repos\VxTel.FaleMais\VxTel.FaleMais.Domain\obj\Debug\netcoreapp3.1\VxTel.FaleMais.Domain.AssemblyInfoInputs.cache
+C:\Users\Janus\source\repos\VxTel.FaleMais\VxTel.FaleMais.Domain\obj\Debug\netcoreapp3.1\VxTel.FaleMais.Domain.AssemblyInfo.cs
+C:\Users\Janus\source\repos\VxTel.FaleMais\VxTel.FaleMais.Domain\obj\Debug\netcoreapp3.1\VxTel.FaleMais.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Janus\source\repos\VxTel.FaleMais\VxTel.FaleMais.Domain\obj\Debug\netcoreapp3.1\VxTel.FaleMais.Domain.dll
+C:\Users\Janus\source\repos\VxTel.FaleMais\VxTel.FaleMais.Domain\obj\Debug\netcoreapp3.1\VxTel.FaleMais.Domain.pdb
